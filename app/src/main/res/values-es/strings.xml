@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMS for Pixel</string>
+    <string name="app_subtitle">Configuración de llamadas VoLTE/VoNR sin Root</string>
+    <string name="notification_channel_ims_status">Estado de activación IMS</string>
+    <string name="notification_title_volte_success">✅ VoLTE activado con éxito</string>
+    <string name="notification_title_volte_done">⚠️ Activación de VoLTE completada</string>
+    <string name="notification_title_config_restored">✅ Configuración restablecida por defecto</string>
+    <string name="notification_sim1_registered">SIM 1: IMS Registrado  </string>
+    <string name="notification_sim1_not_registered">SIM 1: IMS No registrado  </string>
+    <string name="notification_sim2_registered">SIM 2: IMS Registrado</string>
+    <string name="notification_sim2_not_registered">SIM 2: IMS No registrado</string>
+    <string name="notification_config_cleared">Configuración de operador restablecida. Compruebe las llamadas.</string>
+
+    <string name="notification_permission_required">Se requiere permiso de notificaciones para ingresar el código de vinculación</string>
+    <string name="notification_channel_pairing">Vinculación de depuración inalámbrica</string>
+    <string name="notification_channel_pairing_desc">Permite ingresar rápidamente el código de vinculación desde la barra de notificaciones</string>
+    <string name="notification_pairing_reply_label">Ingrese el código de 6 dígitos</string>
+    <string name="notification_pairing_send_action">Enviar código</string>
+    <string name="notification_pairing_prompt">💡 Toque \"Enviar código\" abajo para ingresar los 6 dígitos</string>
+    <string name="toast_pairing_port_missing">No se detectó el puerto de vinculación. ¡Asegúrese de que el diálogo del sistema esté abierto!</string>
+    <string name="notification_pairing_failed_port">Error de vinculación: Puerto de vinculación no detectado</string>
+    <string name="toast_pairing_in_progress">Vinculando dispositivo en segundo plano...</string>
+    <string name="notification_pairing_port_progress">Vinculando al puerto %1$d...</string>
+    <string name="toast_pairing_success">¡Dispositivo vinculado con éxito!</string>
+    <string name="notification_pairing_success">¡Vinculación exitosa! Regrese a la app para activar la configuración.</string>
+    <string name="toast_pairing_failed">Error de vinculación: %1$s</string>
+    <string name="notification_pairing_failed">Error de vinculación: %1$s</string>
+
+    <string name="toast_enable_wireless_debugging">Active primero la depuración inalámbrica</string>
+    <string name="toast_activation_failed">Error de activación: %1$s</string>
+    <string name="toast_restore_failed">Error al restaurar: %1$s</string>
+    <string name="toast_developer_options_not_found">No se encontraron las opciones de desarrollador</string>
+
+    <string name="sim_slot_1">SIM 1</string>
+    <string name="sim_slot_2">SIM 2</string>
+
+    <string name="config_panel_title">Configuración de operador (Ranura %1$d)</string>
+    <string name="badge_config_applied">Configuración: Aplicada</string>
+    <string name="badge_config_default">Configuración: Por defecto</string>
+    <string name="badge_ims_registered">IMS: Registrado</string>
+    <string name="badge_ims_not_registered">IMS: No registrado</string>
+
+    <string name="toggle_volte_title">Habilitar llamadas VoLTE (VoLTE)</string>
+    <string name="toggle_volte_desc">Permitir llamadas de voz sobre red 4G/LTE</string>
+    <string name="toggle_vonr_title">Habilitar llamadas 5G (VoNR)</string>
+    <string name="toggle_vonr_desc">Habilitar llamadas de voz sobre red 5G independiente (VoNR)</string>
+    <string name="toggle_vowifi_title">Habilitar llamadas por Wi-Fi (VoWiFi)</string>
+    <string name="toggle_vowifi_desc">Permitir llamadas por Wi-Fi cuando la señal móvil sea débil</string>
+    <string name="toggle_wfc_roaming_title">Habilitar llamadas Wi-Fi en Roaming</string>
+    <string name="toggle_wfc_roaming_desc">Mantener llamadas Wi-Fi activas en el extranjero o en roaming</string>
+    <string name="toggle_ss_ut_title">Habilitar servicios suplementarios (UT)</string>
+    <string name="toggle_ss_ut_desc">Permitir desvío de llamadas, llamada en espera y ajustes de red suplementarios</string>
+
+    <string name="card_activation_title">Activación por depuración inalámbrica</string>
+    <string name="step1_title">Paso 1: Conectar a Wi-Fi (Requisito)</string>
+    <string name="step1_desc">La depuración inalámbrica requiere que el teléfono esté conectado a Wi-Fi</string>
+    <string name="status_connected">Conectado</string>
+    <string name="status_not_connected">No conectado</string>
+
+    <string name="step2_title">Paso 2: Habilitar servicio y vincular</string>
+    <string name="step2_status_authorized">Vinculado y autorizado</string>
+    <string name="step2_status_needs_pairing">Servicio activo (Requiere vincular)</string>
+    <string name="step2_status_prompt">Active la depuración inalámbrica en Ajustes</string>
+    <string name="badge_authorized">Autorizado</string>
+    <string name="badge_unpaired">No vinculado</string>
+    <string name="btn_open_wireless_debugging">Ir a depuración inalámbrica</string>
+
+    <string name="step3_title">Paso 3: Activar configuración</string>
+    <string name="step3_desc">Aplicar los parámetros configurados a la SIM actual</string>
+    <string name="sim1_config_title">Voz en SIM 1</string>
+    <string name="sim2_config_title">Voz en SIM 2</string>
+    <string name="status_app_optimized">Optimizado</string>
+    <string name="status_system_default">Por defecto</string>
+    <string name="btn_activate">Activar VoLTE</string>
+    <string name="btn_waiting">Esperando servicio...</string>
+    <string name="btn_restore">Restaurar por defecto</string>
+    <string name="hint_ims_update">💡 El estado de IMS se actualizará automáticamente en unos segundos.</string>
+    <string name="toggle_hide_advanced">Ocultar opciones avanzadas</string>
+    <string name="toggle_show_advanced">Mostrar opciones avanzadas</string>
+    <string name="label_adb_port">Puerto de conexión (Puerto ADB)</string>
+</resources>

@@ -704,10 +704,16 @@ fun ConfigPanel(
                     text = stringResource(R.string.config_panel_title, slotIndex + 1),
                     fontWeight = FontWeight.Bold,
                     fontSize = 15.sp,
-                    color = TextLight
+                    color = TextLight,
+                    modifier = Modifier.weight(1f, fill = false)
                 )
                 
-                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                Spacer(modifier = Modifier.width(8.dp))
+
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     Box(
                         modifier = Modifier
                             .clip(RoundedCornerShape(6.dp))
@@ -718,7 +724,9 @@ fun ConfigPanel(
                             text = if (configApplied) stringResource(R.string.badge_config_applied) else stringResource(R.string.badge_config_default),
                             color = if (configApplied) AccentGreen else TextMuted,
                             fontWeight = FontWeight.SemiBold,
-                            fontSize = 10.sp
+                            fontSize = 10.sp,
+                            maxLines = 1,
+                            softWrap = false
                         )
                     }
 
@@ -732,7 +740,9 @@ fun ConfigPanel(
                             text = if (imsRegistered) stringResource(R.string.badge_ims_registered) else stringResource(R.string.badge_ims_not_registered),
                             color = if (imsRegistered) AccentGreen else AccentRed,
                             fontWeight = FontWeight.SemiBold,
-                            fontSize = 10.sp
+                            fontSize = 10.sp,
+                            maxLines = 1,
+                            softWrap = false
                         )
                     }
                 }

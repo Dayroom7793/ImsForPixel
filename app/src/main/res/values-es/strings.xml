@@ -35,9 +35,9 @@
     <string name="sim_slot_1">SIM 1</string>
     <string name="sim_slot_2">SIM 2</string>
 
-    <string name="config_panel_title">Configuración de operador (Ranura %1$d)</string>
-    <string name="badge_config_applied">Configuración: Aplicada</string>
-    <string name="badge_config_default">Configuración: Por defecto</string>
+    <string name="config_panel_title">Ajustes de operador (SIM %1$d)</string>
+    <string name="badge_config_applied">Aplicada</string>
+    <string name="badge_config_default">Por defecto</string>
     <string name="badge_ims_registered">IMS: Registrado</string>
     <string name="badge_ims_not_registered">IMS: No registrado</string>
 

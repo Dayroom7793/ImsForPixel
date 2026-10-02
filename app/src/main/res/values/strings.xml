@@ -35,9 +35,9 @@
     <string name="sim_slot_1">SIM 1</string>
     <string name="sim_slot_2">SIM 2</string>
 
-    <string name="config_panel_title">Carrier Settings (Slot %1$d)</string>
-    <string name="badge_config_applied">Config: Applied</string>
-    <string name="badge_config_default">Config: System Default</string>
+    <string name="config_panel_title">Carrier Settings (SIM %1$d)</string>
+    <string name="badge_config_applied">Applied</string>
+    <string name="badge_config_default">Default</string>
     <string name="badge_ims_registered">IMS: Registered</string>
     <string name="badge_ims_not_registered">IMS: Not Registered</string>
 

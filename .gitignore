@@ -18,5 +18,9 @@ app/build/
 # Log files
 *.log
 
+# Binary builds
+*.apk
+*.aab
+
 # macOS
 .DS_Store
